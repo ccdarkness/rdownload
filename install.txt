@@ -1,0 +1,15 @@
+安装node.js https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+
+sudo apt-get install software-properties-common
+sudo apt-get update
+sudo apt-get install -y python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+
+
+启动
+node r.js
+
+
+r.js会同步所有网盘应用目录下的文件到本地
